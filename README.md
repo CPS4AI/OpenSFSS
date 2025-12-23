@@ -4,7 +4,7 @@ This repository contains our implementation of streaming function secret sharing
 
 The paper can be found at https://ia.cr/2025/2304. Please refer to the Open Science section in the paper for more details. 
 
-# Requirements
+## Requirements
 
 emp-toolkit (https://github.com/emp-toolkit/emp-tool) 
 
@@ -13,7 +13,7 @@ Cmake (version >= 3.12) (https://cmake.org)
 GMP (we use version 6.3.0) (https://gmplib.org)
 
 
-# Build
+## Build
 1. Make the build directory and cd into the directory 
     ```
     mkdir build
@@ -28,7 +28,7 @@ GMP (we use version 6.3.0) (https://gmplib.org)
     make 
     ```
 
-# Run 
+## Run 
 1. Run basic FSS and SFSS primitive
     ```
     ./bin/sfss_main 
@@ -39,7 +39,18 @@ GMP (we use version 6.3.0) (https://gmplib.org)
    + Open terminal 2, run `./bin/server_runner_main 0 12345`
    + Open terminal 3, run `./bin/server_runner_main 1 12346`
     
-    The result will be shown in the terminals. 
+    The result will be shown in the terminals.
+
+## Citing
+``text
+@misc{cryptoeprint:2025/2304,
+      author = {Xiangfu Song and Jianli Bai and Ye Dong and Yijian Liu and Yu Zhang and Xianhui Lu and Tianwei Zhang},
+      title = {Streaming Function Secret Sharing and Its Applications},
+      howpublished = {Cryptology {ePrint} Archive, Paper 2025/2304},
+      year = {2025},
+      url = {https://eprint.iacr.org/2025/2304}
+}
+``
 
 
 
