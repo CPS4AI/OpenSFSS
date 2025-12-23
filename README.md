@@ -1,6 +1,6 @@
 # Streaming Function Secret Sharing Implementation
 
-This repository contains our implementation of streaming function secret sharing (SFSS), a new variant of function secret sharing (FSS) that is particularly suitable for secure computation over streaming messages. SFSS facilitates several promising applications in a simple and modular fashion, including conditional transciphering, policy-hiding aggregation, and attribute-hiding aggregation. In this repository, we provide our implementation of SFSS primitives, including streaming distributed point functions and streaming distributed comparison functions with applications, including window-based policy/attribute-hiding aggregation. 
+This repository contains our implementation of streaming function secret sharing (SFSS), a new variant of function secret sharing (FSS) that is particularly suitable for secure computation over streaming messages. SFSS facilitates several promising applications in a simple and modular fashion, including conditional transciphering, policy-hiding aggregation, and attribute-hiding aggregation. In this repository, we provide our implementation of SFSS primitives, including streaming distributed point functions and streaming distributed comparison functions, with applications including window-based policy/attribute-hiding aggregation. 
 
 The paper can be found at https://ia.cr/2025/2304. Please refer to the Open Science section in the paper for more details. 
 
