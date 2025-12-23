@@ -42,7 +42,7 @@ GMP (we use version 6.3.0) (https://gmplib.org)
     The result will be shown in the terminals.
 
 ## Citing
-``text
+```text
 @misc{cryptoeprint:2025/2304,
       author = {Xiangfu Song and Jianli Bai and Ye Dong and Yijian Liu and Yu Zhang and Xianhui Lu and Tianwei Zhang},
       title = {Streaming Function Secret Sharing and Its Applications},
@@ -50,7 +50,7 @@ GMP (we use version 6.3.0) (https://gmplib.org)
       year = {2025},
       url = {https://eprint.iacr.org/2025/2304}
 }
-``
+```
 
 
 
